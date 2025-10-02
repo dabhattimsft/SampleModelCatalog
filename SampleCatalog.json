@@ -1,0 +1,213 @@
+{
+  "base": "https://learn.microsoft.com/azure/ai-foundry/foundry-local/reference/reference-catalog-api",
+  "models": [
+    {
+      "alias": "gpt2",
+      "name": "openai-community-gpt2",
+      "version": "2",
+      "modelType": "ONNX",
+      "publisher": "openai-community",
+      "executionProvider": "CPUExecutionProvider",
+      "description": "",
+      "modelSizeBytes": 13632917530,
+      "license": "MIT",
+      "licenseUri": "https://choosealicense.com/licenses/mit/",
+      "licenseText": "MIT license",
+      "uri": "https://huggingface.co/openai-community/gpt2/resolve/main/onnx",
+      "files": [
+        {
+          "name": "decoder_model.onnx",
+          "sha256": "e3fc9615868ff8f5e0429b892a0f6ca692784ba6c4ca31c4e9ee8218e7cce34f"
+        },
+        {
+          "name": "config.json",
+          "sha256": "c6d8a78631f7a03a14493eb78d584ba92c8e68c8774b810426b34df1f8a15b10"
+        },
+        {
+          "name": "decoder_model_merged.onnx",
+          "sha256": "e6fc046fe5a7cfeeb8bb3c7d4c1b6a8bd90ced7339a75d5567957e3bc9d48abe"
+        },
+        {
+          "name": "decoder_with_past_model.onnx",
+          "sha256": "570d958241de81f12d82a8358dfc0b408a7bf44ff2bd10ac4a97dab24a8118db"
+        },
+        {
+          "name": "generation_config.json",
+          "sha256": "067a873d1d1a67ffa7237a0ad0eebdb547d3f9209793c8aa476ec130815e3c8c"
+        },
+        {
+          "name": "merges.txt",
+          "sha256": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5"
+        },
+        {
+          "name": "special_tokens_map.json",
+          "sha256": "6f50ab5a5a509a1c309d6171f339b196a900dc9c99ad0408ff23bb615fdae7ad"
+        },
+        {
+          "name": "tokenizer.json",
+          "sha256": "cda20b8ca044949aa07ac4078420c80d1a57139d5f9f33700e46fb2d891e7c66"
+        },
+        {
+          "name": "tokenizer_config.json",
+          "sha256": "551e26ec611d8d0c8edc3ef72e518a38418cb71f40de1347dd486a595e1557d7"
+        },
+        {
+          "name": "vocab.json",
+          "sha256": "3ba3c3109ff33976c4bd966589c11ee14fcaa1f4c9e5e154c2ed7f99d80709e7"
+        }
+      ]
+    },
+    {
+      "alias": "squeezenet",
+      "name": "sample-squeezenet",
+      "version": "1",
+      "modelType": "ONNX",
+      "publisher": "WindowsAppSDK",
+      "executionProvider": "CPUExecutionProvider",
+      "description": "",
+      "modelSizeBytes": 13632917530,
+      "license": "BSD",
+      "licenseUri": "https://github.com/microsoft/WindowsAppSDK-Samples/raw/refs/heads/release/experimental/Samples/WindowsML/cpp/CppConsoleDesktop/CppConsoleDesktop/SqueezeNet.LICENSE.txt",
+      "licenseText": "This model is provided under the License Terms available at \u003Chttps://github.com/microsoft/WindowsAppSDK-Samples/raw/refs/heads/release/experimental/Samples/WindowsML/cpp/CppConsoleDesktop/CppConsoleDesktop/SqueezeNet.LICENSE.txt\u003E",
+      "uri": "https://github.com/microsoft/WindowsAppSDK-Samples/raw/refs/heads/release/experimental/Samples/WindowsML/cpp/CppConsoleDesktop/CppConsoleDesktop",
+      "files": [
+        {
+          "name": "SqueezeNet.onnx",
+          "uri": "https://github.com/microsoft/WindowsAppSDK-Samples/raw/refs/heads/release/experimental/Samples/WindowsML/cpp/CppConsoleDesktop/CppConsoleDesktop/SqueezeNet.onnx",
+          "sha256": "d7f93e79ba1284a3ff2b4cea317d79f3e98e64acfce725ad5f4e8197864aef73"
+        },
+        {
+          "name": "SqueezeNet.Labels.txt",
+          "uri": "https://github.com/microsoft/WindowsAppSDK-Samples/raw/refs/heads/release/experimental/Samples/WindowsML/cpp/CppConsoleDesktop/CppConsoleDesktop/SqueezeNet.Labels.txt",
+          "sha256": "dc1fd0d4747096d3aa690bd65ec2f51fdb3e5117535bfbce46fa91088a8f93a9"
+        },
+        {
+          "name": "image.jpg",
+          "uri": "https://github.com/microsoft/WindowsAppSDK-Samples/raw/refs/heads/release/experimental/Samples/WindowsML/cpp/CppConsoleDesktop/CppConsoleDesktop/image.jpg",
+          "sha256": "727be149dedfe5fda90412a858e09b76451ff5a28afd7a92ec64ec6be4e19942"
+        }
+      ]
+    },
+    {
+      "alias": "Llama32",
+      "name": "Llama-1B-Instruct-q4f16",
+      "version": "3.2",
+      "modelType": "ONNX",
+      "publisher": "onnx-community",
+      "executionProvider": "CPUExecutionProvider",
+      "description": "",
+      "modelSizeBytes": 13632917530,
+      "license": "MIT",
+      "licenseUri": "https://choosealicense.com/licenses/mit/",
+      "licenseText": "MIT license",
+      "uri": "https://huggingface.co/onnx-community/Llama-3.2-1B-Instruct-q4f16/resolve/main/onnx",
+      "files": [
+        {
+          "name": "model_q4f16.onnx",
+          "uri": "https://huggingface.co/onnx-community/Llama-3.2-1B-Instruct-q4f16/resolve/main/onnx/model_q4f16.onnx",
+          "sha256": "ea5d19b03c6050b54f95b260eae3482ceaf05a891c3364db94104764d5092f2b"
+        }
+      ]
+    },
+    {
+      "alias": "DeepSeek-R1",
+      "name": "DeepSeek-R1-Distill-Qwen-1.5B-ONNX",
+      "version": "R1",
+      "modelType": "ONNX",
+      "publisher": "onnx-community",
+      "executionProvider": "CPUExecutionProvider",
+      "description": "",
+      "modelSizeBytes": 13632917530,
+      "license": "llama3.2",
+      "licenseUri": "https://huggingface.co/meta-llama/Llama-3.2-1B/blob/main/LICENSE.txt",
+      "licenseText": "This model is provided under the License Terms available at \u003Chttps://huggingface.co/meta-llama/Llama-3.2-1B/blob/main/LICENSE.txt\u003E",
+      "uri": "https://huggingface.co/onnx-community/DeepSeek-R1-Distill-Qwen-1.5B-ONNX/resolve/main/onnx",
+      "files": [
+        {
+          "name": "model.onnx",
+          "sha256": "7e6798db556fcfd01cb095d252f5c3fc5b1043c047b9c45b855d7f3043e7eda0"
+        },
+        {
+          "name": "model.onnx_data",
+          "sha256": "9f7d1ce8d4e09a08e7e901f6986abfd581dc10e2b98f573f02bd69bd8d46b3ce"
+        },
+        {
+          "name": "model_bnb4.onnx",
+          "sha256": "9f75e329a63a14bbff2e8d7f666c729a27ef248cf17a6fe537d12ebac5f541e3"
+        },
+        {
+          "name": "model_fp16.onnx",
+          "sha256": "fbfdcb6b7edebf69105389fdccef0e8910fb882f4abd8cb61ed0163b3321fe85"
+        },
+        {
+          "name": "model_fp16.onnx_data",
+          "sha256": "588bc7892155ac042c08a6391429a899bc652021ad7af070f95662b55552aade"
+        },
+        {
+          "name": "model_int8.onnx",
+          "sha256": "98718e7b276da0ddeed57f36088f5863e626f41a9e09d466eddd1d61a34b0ff2"
+        },
+        {
+          "name": "model_q4.onnx",
+          "sha256": "3c64abf7c85102af29c0c0231caf754e981faebfa83ef9530fb457d2c5140b04"
+        },
+        {
+          "name": "model_q4f16.onnx",
+          "sha256": "db35d720beb08c4cddc820af4d51c903d953afa12dc5fa084ed2467999875953"
+        },
+        {
+          "name": "model_uint8.onnx",
+          "sha256": "15dd5ad2182a32e1bdffa4e2855d535ca5fd0d60b6ece5e673d104d10f8038af"
+        }
+      ]
+    },
+    {
+      "alias": "t5-small",
+      "name": "google-t5-small",
+      "version": "1",
+      "modelType": "ONNX",
+      "publisher": "google",
+      "executionProvider": "CPUExecutionProvider",
+      "description": "",
+      "modelSizeBytes": 13632917530,
+      "license": "apache-2.0",
+      "licenseUri": "https://choosealicense.com/licenses/apache-2.0/",
+      "licenseText": "This model is provided under the License Terms available at \u003Chttps://choosealicense.com/licenses/apache-2.0/\u003E",
+      "uri": "https://huggingface.co/google-t5/t5-small/resolve/main/onnx",
+      "files": [
+        {
+          "name": "decoder_model.onnx",
+          "sha256": "2256c6365e8243581be4d67b4cd19b9c483de8e998bf319194f4a709d0efa9a4"
+        },
+        {
+          "name": "decoder_model_merged.onnx",
+          "sha256": "f6d2874dafd291458e59f3762915e7111cc66caaffedbffb78d2d5fa42f6cdce"
+        },
+        {
+          "name": "decoder_model_merged_quantized.onnx",
+          "sha256": "af6a06ea84880ca90282e6b94e17051eea139ca9c2b8d03c45ba204c03418092"
+        },
+        {
+          "name": "decoder_model_quantized.onnx",
+          "sha256": "a1b7a03fd50c2c5d3bf6e0d605e70d3bf1cb0b35e99ae3bd9fd830a5b87deba3"
+        },
+        {
+          "name": "decoder_with_past_model.onnx",
+          "sha256": "2eb7790f56c47e6498e850041a4c9c60ebc8133d3792f30d91eebd242e819836"
+        },
+        {
+          "name": "decoder_with_past_model_quantized.onnx",
+          "sha256": "30e4b22fc9860ee5bc4dc07c4857c6a72c81303d0a8a2d7225549127d0219caa"
+        },
+        {
+          "name": "encoder_model.onnx",
+          "sha256": "3ebb633a3a8121ca86badcd8fa84eae8a32ce49a938af351731d430f136e0dc4"
+        },
+        {
+          "name": "encoder_model_quantized.onnx",
+          "sha256": "5124770e67bf2c2ca80dd49ff9a002b240c3adbaf0c3b96a765115a756ed2916"
+        }
+      ]
+    }
+  ]
+}
